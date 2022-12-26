@@ -1,0 +1,111 @@
+@font-face{
+    font-family: Playfair-Italic;
+    src: url(./font/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family: Playfair;
+    src: url(./font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+
+html{
+    background-color: antiquewhite;
+    cursor:default;
+    font-family: Playfair;
+}
+
+/* self-intro */
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 30vw 100px 30vw;
+    font-family: Playfair-Italic;
+    border-bottom: 5px solid black;
+}
+
+#introduction{
+    margin: 0 10vw;
+    padding: 150px;
+    background-color: rgba(192, 119, 41, 0.15);
+    border-radius: 30px;
+}
+
+#introduction-pic{
+    float:left;
+    margin-right: 10vw;
+    border-radius: 15px;
+}
+
+#introduction-content{
+    font-size: 1.5em;
+    line-height: 2em;
+    cursor: text;
+}
+
+#introduction-content::first-letter{
+    font-size: 3em;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+/* Works */
+h2{
+    margin-top: 100px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Playfair;
+    font-style: italic;
+}
+
+/* Contact form */
+form{
+    display: block;
+    margin: 200px 30vw 0px 30vw;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+form *{
+    vertical-align:middle;
+}
+
+legend{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+textarea{
+    margin-top: 15px;
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+#commentbtn{
+    font-size: 1em;
+}
+
+.warning{
+    border:red solid 3px;
+}
+.warning::placeholder{
+    color: red;
+}
+
+/* footer */
+footer{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color: black;
+    margin: 20px;
+}
+
+footer a:hover{
+    text-decoration: none;
+    font-size: 1.3em;
+}
+

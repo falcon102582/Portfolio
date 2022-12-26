@@ -11,18 +11,39 @@
     <h1>Jerry Yip's Portfolio</h1>
 
     <section id="introduction">
-        <img src="" class="introduction-pic">
-        <p id="introduction-content">Hi, I am Jerry Yip and I am a self-taught web developer. I am looking for a web devloping job so I build this portfolio website to show my skills. My major skills are HTML, CSS, Javascript and I am learning Raeact and Tailwind CSS now. Please contact me if you want me to be one of you teammate.</p>
+        <a href="https://www.instagram.com/const_drawtorelax/" target="_blank"><img src="./img/mainPic.png" id="introduction-pic"></a>
+        <p id="introduction-content">Hi, I am Jerry Yip, a self-taught web developer. I am looking for a web devloping job so I build this portfolio website which you can find more about me. My major skills are HTML, CSS, Javascript and I am learning Raeact and Tailwind CSS now. Please contact me if you want me to be one of you team.</p>
     </section>
 
     <section id="works">
-
+        <h2>My Works</h2>
+        <div class="works-container">
+            <img>
+            <img>
+            <img>
+            <img>
+        </div>
     </section>
 
-    <section id="contact">
-
+    <section id="comment">
+        <form>
+            <fieldset>
+                <legend>Leave some comments</legend>
+                <label for="name">Name: </label>
+                <input type="text" id="comment-name" class="input" name="name"><br>
+                <label for="content">Content: </label>
+                <textarea id="comment-content" class="input" name="content"></textarea><br>
+                <input type="submit" id="commentbtn" value = "send">
+            </fieldset>
+        </form>
     </section>
 
     <script src="main.js"></script>
+
+    <footer>
+        <span id="ig"><a href="https://www.instagram.com/const_drawtorelax/" target="_blank">My Instagram</a></span>
+        <span id="facebook"><a href="https://www.facebook.com/tszyui.yip" target="_blank">My facebook</a></span>
+        <span id="email"><a href="mailto:falcon102582@gmail.com">My email</a></span>
+    </footer>
 </body>
 </html>
