@@ -57,6 +57,23 @@ h2{
     font-style: italic;
 }
 
+#works-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+}
+
+.work-pic{
+    max-width: 420px;
+}
+
+.work-des{
+    text-align: center;
+}
+
+
+
 /* Contact form */
 form{
     display: block;
